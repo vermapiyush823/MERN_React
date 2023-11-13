@@ -1,10 +1,16 @@
 import './App.css'
 
-function App() {
+const user = {
+  name:'Piyush',
+  Age:19,
+};
+
+const App = ()=> {
   return (
-    <button>
-      Click me
-    </button>
+    <>
+    <h1>Hey, this is <span>{user.name}</span></h1>
+    <h2>and, I am <span>19</span></h2>
+    </>
   )
 }
 
