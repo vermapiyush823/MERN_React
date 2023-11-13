@@ -1,5 +1,5 @@
 import './App.css'
-
+import { Fun1,Fun2 } from './dumy';
 const user = {
   name:'Piyush',
   Age:19,
@@ -13,6 +13,8 @@ const App = ()=> {
     <h1>Hey, this is <span>{user.name}</span></h1>
     <h2>and, I am <span>19</span></h2>
     <img src={user.imgSrc} alt="" style={{width:user.size+"px",height:user.size+"px"}}/>
+    <Fun1/>
+    <Fun2/>
     </>
   )
 }
