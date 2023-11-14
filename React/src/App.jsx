@@ -12,8 +12,13 @@ const App = () => {
         Component={() => {
           return (
             <div className="card-container">
+<<<<<<< HEAD
               <Cards fName={"Piyush"} lName={"Verma"}/>
               <Cards fName={"Akash"} lName={"Bansal"}/>
+=======
+              <Cards />
+              <Cards />
+>>>>>>> 449c6e7728e9b2410f42b38059e9af4a4307cec5
               <Cards />
               <Cards />
               <Cards />
