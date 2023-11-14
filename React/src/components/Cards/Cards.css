@@ -1,0 +1,8 @@
+.card{
+    padding: 8px;
+    border: 2px  solid gray;
+    border-radius: 5px;
+}
+.field{
+    font-weight: 600;
+}
