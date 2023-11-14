@@ -1,5 +1,5 @@
 import './App.css'
-import { Fun1,Fun2 } from './dumy';
+import { Fun1,Fun2,Fun3 } from './dumy';
 const user = {
   name:'Piyush',
   Age:19,
@@ -15,6 +15,7 @@ const App = ()=> {
     <img src={user.imgSrc} alt="" style={{width:user.size+"px",height:user.size+"px"}}/>
     <Fun1/>
     <Fun2/>
+    <Fun3/>
     </>
   )
 }

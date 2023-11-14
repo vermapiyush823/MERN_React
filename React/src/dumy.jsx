@@ -17,3 +17,11 @@ export const Fun2 = ()=>{
         </>
     );
 }
+
+export const Fun3 = ()=>{
+    return (
+        <>
+        <p>Hello</p>
+        </>
+    )
+}
