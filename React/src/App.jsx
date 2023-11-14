@@ -9,9 +9,7 @@ const user = {
 const App = ()=> {
   return (
     <>
-    <h1>Hey, this is <span>{user.name}</span></h1>
-    <h2>and, I am <span>19</span></h2>
-    <img src={user.imgSrc} alt="" style={{width:user.size+"px",height:user.size+"px"}}/>
+    
     </>
   )
 }
