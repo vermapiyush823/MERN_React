@@ -20,6 +20,10 @@ const names = [
     
     fName:'Sahil',
     lName:'Verma'
+  },
+  {
+    fName:'Sagar',
+    lName:'Verma'
   }
 ]
 const App = () => {
