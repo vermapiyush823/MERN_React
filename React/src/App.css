@@ -1,8 +1,5 @@
 .card-container{
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-=======
->>>>>>> 449c6e7728e9b2410f42b38059e9af4a4307cec5
 }

@@ -4,6 +4,24 @@ import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import Cards from "./components/Cards/Cards";
 
+
+const names = [
+  {
+
+    fName:'Piyush',
+    lName:'Verma'
+  },
+  {
+    
+    fName:'Kashish',
+    lName:'Verma'
+  },
+  {
+    
+    fName:'Sahil',
+    lName:'Verma'
+  }
+]
 const App = () => {
   return (
     <Routes>
@@ -12,16 +30,10 @@ const App = () => {
         Component={() => {
           return (
             <div className="card-container">
-<<<<<<< HEAD
-              <Cards fName={"Piyush"} lName={"Verma"}/>
-              <Cards fName={"Akash"} lName={"Bansal"}/>
-=======
-              <Cards />
-              <Cards />
->>>>>>> 449c6e7728e9b2410f42b38059e9af4a4307cec5
-              <Cards />
-              <Cards />
-              <Cards />
+             { names.map((val,i)=>{
+              return(
+                <Cards key={i} fName={val.fName} lName={val.lName}/>);
+              })}
             </div>
           );
         }}
