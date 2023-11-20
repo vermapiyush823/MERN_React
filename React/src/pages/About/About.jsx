@@ -3,7 +3,9 @@ import axios from "axios";
 const About = () => {
   const generateRandomPerson = ()=>{
     axios.get("https://randomuser.me/api/").then((resp)=>{
-        setData(resp.data);
+    console.log(resp.data.results[0])    
+    setData(resp.data);
+
     })
     
   }
