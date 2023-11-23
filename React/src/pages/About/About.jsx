@@ -20,7 +20,6 @@ const About = () => {
     <>
 
     {data ?(<div>
-  
       <img src={userInfo?.picture.large}/>
       <p>
         { userInfo?.name.title +
