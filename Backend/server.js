@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 const port = 3000;
 
-mongoose.connect('mongodb+srv://Piyush:Jethalal1.@cluster0.yc2ciyh.mongodb.net/').then((db)=>{
+mongoose.connect('mongodb+srv://vermapiyush823:Jethalal1.@cluster0.lsqoit0.mongodb.net/').then((db)=>{
   console.log("Database connected successfully!")
 })
 
