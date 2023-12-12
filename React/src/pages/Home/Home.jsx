@@ -6,7 +6,7 @@ import axios from "axios";
 import "./Home.css";
 const Home = () => {
   const getName = ()=>{
-    axios.get("http://localhost:3000/#").then((response)=>{
+    axios.get("http://localhost:3000/").then((response)=>{
       setNames(response.data.names);
     })
   }
